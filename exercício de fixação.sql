@@ -190,4 +190,5 @@ from produtos
 where "&Modelo 20%";
 
 select nome, preco, descricao
-from produtos;
+from produtos
+where preco > 50 and preco < 150;
